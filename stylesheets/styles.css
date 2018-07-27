@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #803849;
+}
+
+a {
+  text-decoration: none;
+  color: #F9F7F8;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+nav {
+  padding: 32px;
+  position: fixed;
+}
+
+.nav-list {
+  text-align: right;
+}
+
+.name {
+  font-size: 36px;
+  color: #F9F7F8;
+  font-weight: lighter;
+}
+
+.introduction {
+    font-size: 72px;
+    color:#F9F7F8;
+}
+
+.container-wrapped {
+  widht: 100vw;
+  height: 100vh;
+  padding-right: 100px;
+  background-color:#803849;
+}
+.intro {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 50px;
+}
+
+.container-project {
+  background-color: #F9F7F8;
+  height: 900px;
+}
+.container-project .row {
+  padding-left: 160px;
+  padding-top: 160px;
+}
+.title-project {
+  font-size: 110px;
+  color:#803849;
+}
+.description {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.number-project {
+  color:#803849;
+  font-size: 72px;
+}
+.text-project {
+  text-align: left;
+}
+.button {
+  border-radius: 5px;
+  border-color: blue;
+  margin-top: 128px;
+  padding: 16px;
+}
